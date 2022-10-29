@@ -9,6 +9,9 @@ edition = "2018"
 [dependencies]
 log = "0.4"
 
+# 设置可以debug以及低优化等级
 [profile.release]
 debug = true
 opt-level = 0
+# debug = false
+# opt-level = 2
